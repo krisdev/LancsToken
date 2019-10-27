@@ -107,7 +107,7 @@ function _getJWT(t, cookie) {
             length: 50,
             charset: 'alphabetic'
         });
-        const n = `${url}${t}&state=${e}`;
+        const n = `${url}${t}&state=${e}`; // create a URI query
 
         request(n, { followRedirect: false, headers: { 'Cookie': cookie } }, (err, resp, body) => {
             if (err) reject(err);

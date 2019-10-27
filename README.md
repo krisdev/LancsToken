@@ -12,6 +12,9 @@ or
 npm i lancstoken
 ```
 
+# TODO:
+Rewrite the Cosign Auth section, it is messy. will switch to a tailing function to clean it up :)
+
 # Usage:
 ```js
 const CoSign = require('lancstoken');
